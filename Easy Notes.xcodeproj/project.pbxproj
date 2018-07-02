@@ -7,15 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		890C8B6920E9267B00C38565 /* noteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 890C8B6820E9267B00C38565 /* noteTableViewCell.swift */; };
 		89BFC58C20E8ED9800650C6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BFC58B20E8ED9800650C6A /* AppDelegate.swift */; };
 		89BFC58E20E8ED9800650C6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BFC58D20E8ED9800650C6A /* ViewController.swift */; };
 		89BFC59120E8ED9800650C6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BFC58F20E8ED9800650C6A /* Main.storyboard */; };
-		89BFC59420E8ED9800650C6A /* Easy_Notes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89BFC59220E8ED9800650C6A /* Easy_Notes.xcdatamodeld */; };
+		89BFC59420E8ED9800650C6A /* EasyNotes.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89BFC59220E8ED9800650C6A /* EasyNotes.xcdatamodeld */; };
 		89BFC59620E8ED9800650C6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89BFC59520E8ED9800650C6A /* Assets.xcassets */; };
 		89BFC59920E8ED9800650C6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89BFC59720E8ED9800650C6A /* LaunchScreen.storyboard */; };
+		89BFC5A120E90EB300650C6A /* noteTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89BFC5A020E90EB300650C6A /* noteTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		890C8B6820E9267B00C38565 /* noteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTableViewCell.swift; sourceTree = "<group>"; };
 		89BFC58820E8ED9800650C6A /* Easy Notes.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Easy Notes.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		89BFC58B20E8ED9800650C6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		89BFC58D20E8ED9800650C6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +27,7 @@
 		89BFC59520E8ED9800650C6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		89BFC59820E8ED9800650C6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89BFC59A20E8ED9800650C6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		89BFC5A020E90EB300650C6A /* noteTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = noteTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,12 +61,14 @@
 			isa = PBXGroup;
 			children = (
 				89BFC58B20E8ED9800650C6A /* AppDelegate.swift */,
+				89BFC5A020E90EB300650C6A /* noteTableViewController.swift */,
 				89BFC58D20E8ED9800650C6A /* ViewController.swift */,
 				89BFC58F20E8ED9800650C6A /* Main.storyboard */,
 				89BFC59520E8ED9800650C6A /* Assets.xcassets */,
+				890C8B6820E9267B00C38565 /* noteTableViewCell.swift */,
 				89BFC59720E8ED9800650C6A /* LaunchScreen.storyboard */,
 				89BFC59A20E8ED9800650C6A /* Info.plist */,
-				89BFC59220E8ED9800650C6A /* Easy_Notes.xcdatamodeld */,
+				89BFC59220E8ED9800650C6A /* EasyNotes.xcdatamodeld */,
 			);
 			path = "Easy Notes";
 			sourceTree = "<group>";
@@ -139,9 +145,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				890C8B6920E9267B00C38565 /* noteTableViewCell.swift in Sources */,
 				89BFC58E20E8ED9800650C6A /* ViewController.swift in Sources */,
+				89BFC5A120E90EB300650C6A /* noteTableViewController.swift in Sources */,
 				89BFC58C20E8ED9800650C6A /* AppDelegate.swift in Sources */,
-				89BFC59420E8ED9800650C6A /* Easy_Notes.xcdatamodeld in Sources */,
+				89BFC59420E8ED9800650C6A /* EasyNotes.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -326,13 +334,13 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		89BFC59220E8ED9800650C6A /* Easy_Notes.xcdatamodeld */ = {
+		89BFC59220E8ED9800650C6A /* EasyNotes.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
 				89BFC59320E8ED9800650C6A /* Easy_Notes.xcdatamodel */,
 			);
 			currentVersion = 89BFC59320E8ED9800650C6A /* Easy_Notes.xcdatamodel */;
-			path = Easy_Notes.xcdatamodeld;
+			path = EasyNotes.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
